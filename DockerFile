@@ -2,4 +2,4 @@ FROM openjdk:8-jre-alpine3.9
 
 COPY . . 
 
-CMD ["java", "-cp", "target/scala-2.12/*.jar:scala-library-2.12.2.jar", "play-samples-play-scala-rest-api-example"]
+CMD ["java", "-cp", "target/scala-2.12/*.jar:scala-library-2.12.2.jar", "play-scala-rest-api-example"]
